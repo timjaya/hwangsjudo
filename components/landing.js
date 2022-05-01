@@ -15,7 +15,7 @@ export default function Landing() {
                     />
                 </div>
                 <div className="flex flex-col justify-center">
-                    <div className="flex justify-center">Hwang's Judo</div>
+                    <div className="flex justify-center">Hwangs Judo</div>
                     <div className="flex justify-center">황의 유도</div>
                     <div className="flex justify-center">Sign Up</div>
                 </div>

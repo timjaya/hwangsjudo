@@ -1,4 +1,4 @@
 
 export default function Section({ children }) {
-    return <div className="my-24">{children}</div>
+    return <div className="my-16">{children}</div>
 }

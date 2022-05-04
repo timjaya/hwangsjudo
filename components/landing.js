@@ -4,8 +4,8 @@ import styles from './css/Landing.module.css'
 
 export default function Landing() {
     return (
-        <Section>
-            <div className="flex justify-center">
+        
+            <div className="flex justify-center py-28">
                 <div className="flex flex-col md:flex-row">
                     <div className="flex justify-center">
                         <Image
@@ -17,7 +17,7 @@ export default function Landing() {
                         />
                     </div>
                     <div className="flex flex-col justify-center">
-                        <h1 className="flex justify-center text-4xl">HWANG{"'"}S JUDO</h1>
+                        <h1 className="flex justify-center text-4xl my-4">Hwang Judo</h1>
                         <h1 className="flex justify-center text-2xl">황의 유도</h1>
                         <div className="flex justify-center my-5">
                             <button className={styles.button}>Sign Up {'>'}</button>
@@ -25,6 +25,6 @@ export default function Landing() {
                     </div>
                 </div>
             </div>
-        </Section>
+        
     )
 }

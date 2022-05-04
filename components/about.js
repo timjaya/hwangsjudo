@@ -2,7 +2,7 @@ import { Element } from 'react-scroll'
 import Section from './section.js'
 export default function About() {
     return (
-        <Section>
+        
             <div className="mb-36">
             <div className="flex flex-col px-6" id="about">
                 <h1 className="flex my-12 justify-center text-5xl">About</h1>
@@ -16,6 +16,6 @@ export default function About() {
                 </div>
             </div>
             </div>
-        </Section>
+        
     )
 }

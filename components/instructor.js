@@ -11,6 +11,5 @@ export default function Instructor() {
                 </p>
             </div>
         </div>
-
     )
 }

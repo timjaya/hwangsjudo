@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link href="https://fonts.googleapis.com/css?family=East Sea Dokdo&display=optional" rel="stylesheet" />
+          <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet' />
           <link href='https://fonts.googleapis.com/css?family=Amiri&display=optional' rel='stylesheet' />
         </Head>
         <body>
@@ -23,4 +23,3 @@ class MyDocument extends Document {
 }
 
 export default MyDocument
-  

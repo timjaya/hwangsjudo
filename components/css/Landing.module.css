@@ -1,11 +1,11 @@
 .button {
   display: inline-block;
-  width: 40%;
+  width: 35%;
+  font-family: 'Noto Sans';
   outline: none;
   cursor: pointer;
-  font-size: 16px;
   line-height: 20px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 13px 23px;
   border: 1px solid #c00202;
   transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;

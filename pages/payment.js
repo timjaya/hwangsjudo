@@ -18,7 +18,7 @@ export default function Payment() {
                     }
                 }
             }}>
-            <div className="py-16">
+            <div className="sm:py-8">
                 <div className="flex flex-col px-8 mb-3" id="Payment">
                     <h1 className="flex my-12 justify-center text-5xl">Payment</h1>
 

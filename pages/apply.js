@@ -18,7 +18,7 @@ export default function Apply() {
                     }
                 }
             }}>
-            <div className="py-16">
+            <div className="sm:py-8">
                 <div className="flex flex-col px-8 mb-3" id="Apply">
                     <h1 className="flex my-12 justify-center text-5xl">Apply</h1>
 

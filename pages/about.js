@@ -19,7 +19,7 @@ export default function About() {
                     }
                 }
             }}>
-                <div className="py-16">
+                <div className="sm:py-8">
                     <div className="flex flex-col px-8 mb-3" id="about">
 
                         <h1 className="flex my-12 justify-center text-5xl">About</h1>
@@ -49,11 +49,11 @@ export default function About() {
                         </div>
                         <div className="flex justify-center">
                             <Image
-                                src="/images/instructor.png"
+                                src="/images/instructor.jpeg"
                                 alt="Picture of a judo flip"
                                 // layout="responsive"
-                                width={250}
-                                height={400}
+                                width={426}
+                                height={600}
                             />
                         </div>
                         <div className="flex justify-center">

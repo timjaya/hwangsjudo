@@ -1,4 +1,5 @@
 import { slide as Menu } from 'react-burger-menu'
+import Link from 'next/link'
 export default function Navigation() {
     return (
         <Menu>

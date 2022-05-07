@@ -1,7 +1,8 @@
 .button {
   display: inline-block;
   width: 35%;
-  font-family: 'Noto Sans';
+  font-family: 'Poppins';
+  /* font-weight: 200; */
   outline: none;
   cursor: pointer;
   line-height: 20px;

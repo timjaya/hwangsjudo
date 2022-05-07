@@ -1,5 +1,6 @@
 import Navigation from '../components/navigation.js'
 import { motion } from 'framer-motion'
+import Footer from '../components/footer.js'
 
 export default function Payment() {
     return (
@@ -25,6 +26,7 @@ export default function Payment() {
                 </div>
             </div>
             </motion.div>
+            <Footer/>
         </>
     )
 }

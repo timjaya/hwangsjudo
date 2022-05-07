@@ -1,6 +1,7 @@
 import Navigation from '../components/navigation.js'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import Footer from '../components/footer.js'
 
 export default function About() {
     return (
@@ -75,6 +76,7 @@ export default function About() {
                     </div>
                 </div>
             </motion.div>
+            <Footer/>
         </>
     )
 }

@@ -1,5 +1,6 @@
 import Navigation from '../components/navigation.js'
 import { motion } from 'framer-motion'
+import Footer from '../components/footer.js'
 
 export default function Apply() {
     return (
@@ -25,6 +26,7 @@ export default function Apply() {
                 </div>
             </div>
             </motion.div>
+            <Footer/>
         </>
 
 

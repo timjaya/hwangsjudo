@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 import styles from '../components/css/Landing.module.css'
 import Navigation from '../components/navigation.js'
+import { motion } from 'framer-motion'
 
 export default function Home() {
   const router = useRouter()
@@ -14,6 +15,19 @@ export default function Home() {
   return (
     <>
       <Navigation />
+      <motion.div initial="hidden" animate="visible" variants={{
+                hidden: {
+                    scale: 1,
+                    opacity: 0
+                },
+                visible: {
+                    scale: 1,
+                    opacity: 1,
+                    transition: {
+                        delay: .1
+                    }
+                }
+            }}>
       <div className="flex justify-center py-28">
         <div className="flex flex-col md:flex-row">
           <div className="flex justify-center">
@@ -34,6 +48,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      </motion.div>
     </>
   )
 }

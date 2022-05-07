@@ -1,0 +1,27 @@
+.desktopmenu a {
+    color: rgb(68, 68, 68);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.20em;
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.desktopmenu a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: rgb(90, 90, 90);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.desktopmenu a:hover:after {
+    width: 100%;
+    left: 0;
+}

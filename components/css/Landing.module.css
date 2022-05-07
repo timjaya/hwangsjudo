@@ -13,3 +13,21 @@
   background: #fff;
   color: #222222;
 }
+
+@media (min-width: 640px) {
+  .button {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .button {
+    width: 20%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .button {
+    width: 50%;
+  }
+}

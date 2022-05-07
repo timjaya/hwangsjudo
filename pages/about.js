@@ -24,7 +24,7 @@ export default function About() {
 
                         <h1 className="flex my-12 justify-center text-5xl">About</h1>
 
-                        <div className="text-justify text-md">
+                        <div className="text-justify text-md md:mx-24 lg:mx-80">
                             <p>
                                 In response to Lane County judo players who are looking for a judo experience with
                                 that distinctive traditional essence and quality, formal plans are underway to get

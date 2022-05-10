@@ -6,7 +6,7 @@ export default function Navigation() {
     return (
         <>
             <div className="sm:invisible">
-                <Menu>
+                <Menu right>
                     <a id="home" className="menu-item py-5" href="/">Home</a>
                     <a id="about" className="menu-item py-5" href="/about">About</a>
                     <a id="apply" className="menu-item py-5" href="/apply">Apply</a>

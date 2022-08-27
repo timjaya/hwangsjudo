@@ -9,7 +9,7 @@ export default function About() {
         <>
             <Head>
                 <title>About</title>
-                <meta name="description" content="Hwang's Judo is a traditional judo dojo that operates in Eugene, OR. We focus on fostering non-competitive physical exercise and proper technique."/>
+                <meta name="description" content="Hwang's Judo is a neo-traditional dojang led by Sabonim Jinoo Hwang, previously taught by Master Kyu Hwang of Hwang's Martial Arts Academy."/>
             </Head>
 
             <Navigation />

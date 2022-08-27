@@ -15,11 +15,16 @@
     "next": "12.1.5",
     "nodemailer": "^6.7.5",
     "nodemailer-sendgrid-transport": "^0.2.0",
-    "react": "18.1.0",
+    "react": "^17.0.2",
+    "react-alert": "^7.0.3",
+    "react-alert-template-mui": "^1.0.7",
     "react-burger-menu": "^3.0.6",
-    "react-dom": "18.1.0",
+    "react-dom": "^17.0.2",
+    "react-modal": "^3.15.1",
+    "react-paypal-button-v2": "^2.6.3",
     "react-scroll": "^1.8.7",
-    "react-toastify": "^9.0.5"
+    "react-toastify": "^9.0.5",
+    "save": "^2.5.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.5",

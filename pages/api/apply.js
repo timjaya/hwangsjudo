@@ -17,8 +17,8 @@ export default function handler(req, res) {
     var mailer = nodemailer.createTransport(sgTransport(options));
 
     var emailContent = {
-      from: `${process.env.GMAIL}`,
-      to: `${process.env.GMAIL}`,
+      from: `${process.env.FROM_EMAIL}`,
+      to: `${process.env.TO_EMAIL}`,
       subject: `New Application from ${email}`,
       html: `
       <p>
@@ -54,16 +54,8 @@ export default function handler(req, res) {
     })
 
     res.status(200).json({'status': 'OK'})
-    
-    // emailjs.sendForm(process.env.EMAILJS_SERVICE_ID, process.env.EMAILJS_TEMPLATE_ID, req.body, process.env.EMAILJS_PUBLICKEY)
-    //   .then((result) => {
-    //     // console.log(result.text);
-    //     res.status(200).json({ 'status': 'OK' });
-    //   }, (error) => {
-    //     console.log(error.text);
-    //   });
   } else {
-    res.status(200).json({ 'status': 'OK' });
+    res.status(405).json({'status': 'Method Not Allowed'});
   }
 
 }

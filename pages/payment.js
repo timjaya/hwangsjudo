@@ -2,6 +2,8 @@ import Navigation from '../components/navigation.js'
 import { motion } from 'framer-motion'
 import Footer from '../components/footer.js'
 import Head from 'next/head'
+import { PayPalButton } from "react-paypal-button-v2"
+
 export default function Payment() {
     return (
         <>
@@ -30,6 +32,24 @@ export default function Payment() {
                 </div>
             </div>
             </motion.div>
+            <div className="flex justify-center">
+            <PayPalButton
+                amount="0.01"
+                // shippingPreference="NO_SHIPPING" // default is "GET_FROM_FILE"
+                onSuccess={(details, data) => {
+                    alert("Transaction completed by " + details.payer.name.given_name);
+
+                    // OPTIONAL: Call your server to save the transaction
+                    return fetch("/paypal-transaction-complete", {
+                        method: "post",
+                        body: JSON.stringify({
+                            orderID: data.orderID
+                        })
+                    });
+                }}
+                />
+            </div>
+            
             <Footer/>
         </>
     )

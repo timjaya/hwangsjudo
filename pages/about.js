@@ -2,10 +2,16 @@ import Navigation from '../components/navigation.js'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import Footer from '../components/footer.js'
+import Head from 'next/head'
 
 export default function About() {
     return (
         <>
+            <Head>
+                <title>About</title>
+                <meta name="description" content="Hwang's Judo is a traditional judo dojo that operates in Eugene, OR. We focus on fostering non-competitive physical exercise and proper technique."/>
+            </Head>
+
             <Navigation />
             <motion.div initial="hidden" animate="visible" variants={{
                 hidden: {

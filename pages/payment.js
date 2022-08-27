@@ -1,10 +1,14 @@
 import Navigation from '../components/navigation.js'
 import { motion } from 'framer-motion'
 import Footer from '../components/footer.js'
-
+import Head from 'next/head'
 export default function Payment() {
     return (
         <>
+            <Head>
+                <title>Payment</title>
+                <meta name="description" content="Payment page for Hwang's Judo Dojo."/>
+            </Head>
             <Navigation />
             <motion.div initial="hidden" animate="visible" variants={{
                 hidden: {

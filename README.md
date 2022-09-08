@@ -1,4 +1,4 @@
-## Hwang's Judo
+## hwangsjudo.com
 
 This is a simple website built with Next.js and deployed in Vercel. It has the following features:
 
